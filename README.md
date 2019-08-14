@@ -1,5 +1,5 @@
-# Incremental Balls
-A web game by Conor and Aldiery based on the popular mobile game Idle Balls.
+# Idle Balls
+A web game by Special Games based on the alternative game Idle Balls.
 
 # Progress
 - Ball Bouncing System : _**`100%`**_
