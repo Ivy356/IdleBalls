@@ -210,7 +210,7 @@ function init(){
         bondRate = 0.01; 
       } 
       pCountMulti = (((Math.floor((balls.length-deactiveBalls)/5))*(0.3*pUpgrades[1]))+1); 
-      strengthBoostReq = 100-pUpgrades[2]; 
+      strengthBoostReq = 50-pUpgrades[2]; 
       strengthBoost = 10+pUpgrades[3]; 
       speedMulti = (0.1*pUpgrades[4])+1; 
       radiusMulti = 1 +(0.1*pUpgrades[5]); 
@@ -218,7 +218,7 @@ function init(){
       if(exciteRate == 0){ 
         exciteRate = 0.01; 
       } 
-      cloneReq = 50-pUpgrades[7]; 
+      cloneReq = 100-pUpgrades[7]; 
       enemyRadiusMulti = 1 + (0.1 * pUpgrades[9]); 
       ballPointMulti = 1 + (0.1 * pUpgrades[11]); 
       document.getElementById("1p").innerHTML = bondRate; 
