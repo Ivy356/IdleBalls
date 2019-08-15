@@ -582,7 +582,17 @@ function prestige(){
   {active:false,x:1200,y:300,dx:.707,dy:.707,color:"#00C7D1",radius:25,bDamage:72900,rank:0,cost:2330000,id:6,clone:false,speed:6}, 
   {active:false,x:1100,y:400,dx:-.707,dy:-.707,color:"#EE33A1",radius:25,bDamage:218000,rank:0,cost:13900000,id:7,clone:false,speed:6}, 
   {active:false,x:300,y:500,dx:.707,dy:-.707,color:"#2ED371",radius:25,bDamage:656000,rank:0,cost:83900000,id:8,clone:false,speed:6}, 
-  {active:false,x:600,y:200,dx:-.707,dy:.707,color:"#800000",radius:25,bDamage:1960000,rank:0,cost:503000000,id:9,clone:false,speed:6}
+  {active:false,x:600,y:200,dx:-.707,dy:.707,color:"#800000",radius:25,bDamage:1960000,rank:0,cost:503000000,id:9,clone:false,speed:6},
+  {active:false,x:600,y:200,dx:-.707,dy:.707,color:"#000000",radius:30,bDamage:5900000,rank:0,cost:3020000000,id:10,clone:false,speed:7},
+  {active:false,x:800,y:300,dx:-.707,dy:.707,color:"#00FFFF",radius:30,bDamage:17700000,rank:0,cost:18100000000,id:11,clone:false,speed:7},
+  {active:false,x:500,y:100,dx:-.707,dy:.707,color:"#00FF00",radius:30,bDamage:53100000,rank:0,cost:108000000000,id:12,clone:false,speed:7},
+  {active:false,x:700,y:300,dx:-.707,dy:.707,color:"#C0C0C0",radius:30,bDamage:159000000,rank:0,cost:653000000000,id:13,clone:false,speed:7},
+  {active:false,x:900,y:200,dx:-.707,dy:.707,color:"#008080",radius:35,bDamage:478000000,rank:0,cost:3910000000000,id:14,clone:false,speed:8},
+  {active:false,x:400,y:200,dx:-.707,dy:.707,color:"#DC143C",radius:35,bDamage:1430000000,rank:0,cost:23500000000000,id:15,clone:false,speed:8},
+  {active:false,x:600,y:100,dx:-.707,dy:.707,color:"#FFD700",radius:35,bDamage:4300000000,rank:0,cost:141000000000000,id:16,clone:false,speed:8},
+  {active:false,x:1000,y:500,dx:-.707,dy:.707,color:"#EE82EE",radius:35,bDamage:12900000000,rank:0,cost:846000000000000,id:17,clone:false,speed:8},
+  {active:false,x:900,y:400,dx:-.707,dy:.707,color:"#A52A2A",radius:40,bDamage:38700000000,rank:0,cost:5070000000000000,id:18,clone:false,speed:9},
+  {active:false,x:500,y:300,dx:-.707,dy:.707,color:"#4B0082",radius:40,bDamage:116000000000,rank:0,cost:30400000000000000,id:19,clone:false,speed:9} 
       ]; 
       if(notationScientfic){ 
           for(var p = 0; p < startingBalls; p++){ 
