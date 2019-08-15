@@ -37,7 +37,7 @@ var normalWidth = 1200;
 var zoomed = false; 
 var pUpgrades = [0,0,0,0,0,0,0,0,0,0,0,0]; 
 var pCountMulti = 1; 
-var strengthBoost = 10; 
+var strengthBoost = 8; 
 var speedMulti = 1; 
 var radiusMulti = 1; 
 var animationSpeed = 0; 
@@ -158,9 +158,9 @@ function clickLevel(){
 } 
 function levelBall(id){ 
   var tempBall = balls[id]; 
-  strengthBoost = 10+pUpgrades[3]; 
-  strengthBoostReq = 100-pUpgrades[2]; 
-  cloneReq = 50-pUpgrades[7]; 
+  strengthBoost = 8+pUpgrades[3]; 
+  strengthBoostReq = 50-pUpgrades[2]; 
+  cloneReq = 100-pUpgrades[7]; 
   if(value>=Math.floor(tempBall.cost*Math.pow(baseCostMulti,tempBall.rank))){ 
     if(tempBall.rank == 0){ 
       tempBall.active = true; 
