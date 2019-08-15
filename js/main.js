@@ -22,7 +22,7 @@ var balls = [
   {active:false,x:800,y:300,dx:-.707,dy:.707,color:"#00FFFF",radius:30,bDamage:17700000,rank:0,cost:18100000000,id:11,clone:false,speed:7},
   {active:false,x:500,y:100,dx:-.707,dy:.707,color:"#00FF00",radius:30,bDamage:53100000,rank:0,cost:108000000000,id:12,clone:false,speed:7},
   {active:false,x:700,y:400,dx:-.707,dy:.707,color:"#C0C0C0",radius:30,bDamage:159000000,rank:0,cost:65300000000,id:13,clone:false,speed:7} 
-];
+]; 
 var clickBalls = [ 
   {active:false,x:300,y:200,dx:-.707,dy:.707,color:"#666666",radius:25,bDamage:10,rank:1,cost:10,id:100,clone:false,speed:4}, 
   {active:false,x:200,y:200,dx:-.707,dy:.707,color:"#666666",radius:25,bDamage:10,rank:1,cost:10,id:101,clone:false,speed:4}, 
