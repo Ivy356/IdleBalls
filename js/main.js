@@ -211,7 +211,7 @@ function init(){
       } 
       pCountMulti = (((Math.floor((balls.length-deactiveBalls)/5))*(0.3*pUpgrades[1]))+1); 
       strengthBoostReq = 50-pUpgrades[2]; 
-      strengthBoost = 10+pUpgrades[3]; 
+      strengthBoost = 8+pUpgrades[3]; 
       speedMulti = (0.1*pUpgrades[4])+1; 
       radiusMulti = 1 +(0.1*pUpgrades[5]); 
       exciteRate = pUpgrades[6]; 
