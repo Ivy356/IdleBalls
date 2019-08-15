@@ -658,7 +658,7 @@ function prestigeUpgrade(id){
         if(ballPoints >= 3 && pUpgrades[id-1]<50){ 
             pUpgrades[id-1]++; 
             ballPoints -= 3; 
-            strengthBoostReq = 100-pUpgrades[id-1]; 
+            strengthBoostReq = 50-pUpgrades[id-1]; 
             document.getElementById(id+"p").innerHTML = strengthBoostReq; 
         } 
         break; 
@@ -666,7 +666,7 @@ function prestigeUpgrade(id){
         if(ballPoints >= 4){ 
             pUpgrades[id-1]++; 
             ballPoints -= 4; 
-            strengthBoost = 10+pUpgrades[id-1]; 
+            strengthBoost = 8+pUpgrades[id-1]; 
             document.getElementById(id+"p").innerHTML = 10*strengthBoost; 
         } 
         break; 
@@ -701,7 +701,7 @@ function prestigeUpgrade(id){
         if(ballPoints >= 5 && pUpgrades[id-1]<25){ 
             pUpgrades[id-1]++; 
             ballPoints -= 5; 
-            cloneReq = 50-pUpgrades[id-1]; 
+            cloneReq = 100-pUpgrades[id-1]; 
             document.getElementById(id+"p").innerHTML = cloneReq; 
         } 
         break; 
