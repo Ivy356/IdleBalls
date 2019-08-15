@@ -5,7 +5,7 @@ var context;
 var level = 1; 
 var click = {multi: 1.07,rank: 1, bCost: 10,bDamage:10} 
 var baseCostMulti = 1.07; 
-var baseHealthMulti = 1.07; 
+var baseHealthMulti = 1.77; 
 var startingBalls = 10; 
 var balls = [ 
   {active:false,x:200,y:200,dx:.707,dy:.707,color:"#5555ff",radius:20,bDamage:10,rank:0,cost:10,id:0,clone:false,speed:5}, 
