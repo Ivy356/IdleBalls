@@ -6,7 +6,7 @@ var level = 1;
 var click = {multi: 1.16,rank: 1, bCost: 10,bDamage:10} 
 var baseCostMulti = 1.10; 
 var baseHealthMulti = 1.85; 
-var startingBalls = 22; 
+var startingBalls = 24; 
 var balls = [ 
   {active:false,x:200,y:200,dx:.707,dy:.707,color:"#5555ff",radius:20,bDamage:10,rank:0,cost:10,id:0,clone:false,speed:5}, 
   {active:false,x:300,y:300,dx:.707,dy:-.707,color:"#00ff00",radius:20,bDamage:300,rank:0,cost:300,id:1,clone:false,speed:5}, 
@@ -29,8 +29,10 @@ var balls = [
   {active:false,x:900,y:400,dx:-.707,dy:.707,color:"#A52A2A",radius:40,bDamage:38700000000,rank:0,cost:5070000000000000,id:18,clone:false,speed:9},
   {active:false,x:500,y:300,dx:-.707,dy:.707,color:"#4B0082",radius:40,bDamage:116000000000,rank:0,cost:30400000000000000,id:19,clone:false,speed:9},
   {active:false,x:800,y:200,dx:-.707,dy:.707,color:"#e25822",radius:28,bDamage:1000000000000000000,rank:0,cost:1000000000000000000000,id:20,clone:false,speed:6},
-  {active:false,x:600,y:400,dx:-.707,dy:.707,color:"#f7a233",radius:32,bDamage:2000000000000000000000000,rank:0,cost:10000000000000000000000000000,id:21,clone:false,speed:7} 
-]; 
+  {active:false,x:600,y:400,dx:-.707,dy:.707,color:"#f7a233",radius:32,bDamage:2000000000000000000000000,rank:0,cost:10000000000000000000000000000,id:21,clone:false,speed:7},
+  {active:false,x:400,y:100,dx:-.707,dy:.707,color:"#e25822",radius:38,bDamage:50000000000000000000000000000,rank:0,cost:100000000000000000000000000000000000,id:22,clone:false,speed:5},
+  {active:false,x:1000,y:200,dx:-.707,dy:.707,color:"#f7a233",radius:22,bDamage:1000000000000000000000000000000000000,rank:0,cost:1000000000000000000000000000000000000000000,id:23,clone:false,speed:10}
+];
 var clickBalls = [ 
   {active:false,x:300,y:200,dx:-.707,dy:.707,color:"#666666",radius:25,bDamage:10,rank:1,cost:10,id:100,clone:false,speed:4}, 
   {active:false,x:200,y:200,dx:-.707,dy:.707,color:"#666666",radius:25,bDamage:10,rank:1,cost:10,id:101,clone:false,speed:4}, 
