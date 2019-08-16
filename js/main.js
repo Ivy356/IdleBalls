@@ -288,10 +288,10 @@ function init(){
             radius:loadBall.radius,id:loadBall.id,clone:true,speed:loadBall.speed}); 
         } 
         if(notationScientfic){ 
-            document.getElementById(loadBall.id+"C").innerHTML = numberformat.format(Math.floor(loadBall.cost*Math.pow(1.09,loadBall.rank)),{format: 'scientific'}); 
+            document.getElementById(loadBall.id+"C").innerHTML = numberformat.format(Math.floor(loadBall.cost*Math.pow(1.10,loadBall.rank)),{format: 'scientific'}); 
         } 
         else{ 
-            document.getElementById(loadBall.id+"C").innerHTML = numberformat.format(Math.floor(loadBall.cost*Math.pow(1.09,loadBall.rank))); 
+            document.getElementById(loadBall.id+"C").innerHTML = numberformat.format(Math.floor(loadBall.cost*Math.pow(1.10,loadBall.rank))); 
         } 
         document.getElementById(loadBall.id+"A").innerHTML = loadBall.rank; 
       } 
@@ -598,7 +598,9 @@ function prestige(){
   {active:false,x:900,y:400,dx:-.707,dy:.707,color:"#A52A2A",radius:40,bDamage:38700000000,rank:0,cost:5070000000000000,id:18,clone:false,speed:9},
   {active:false,x:500,y:300,dx:-.707,dy:.707,color:"#4B0082",radius:40,bDamage:116000000000,rank:0,cost:30400000000000000,id:19,clone:false,speed:9},
   {active:false,x:800,y:200,dx:-.707,dy:.707,color:"#e25822",radius:28,bDamage:1000000000000000000,rank:0,cost:1000000000000000000000,id:20,clone:false,speed:6},
-  {active:false,x:600,y:400,dx:-.707,dy:.707,color:"#f7a233",radius:32,bDamage:2000000000000000000000000,rank:0,cost:10000000000000000000000000000,id:21,clone:false,speed:7}
+  {active:false,x:600,y:400,dx:-.707,dy:.707,color:"#f7a233",radius:32,bDamage:2000000000000000000000000,rank:0,cost:10000000000000000000000000000,id:21,clone:false,speed:7},
+  {active:false,x:400,y:100,dx:-.707,dy:.707,color:"#A5F2F3",radius:38,bDamage:50000000000000000000000000000,rank:0,cost:100000000000000000000000000000000000,id:22,clone:false,speed:5},
+  {active:false,x:1000,y:200,dx:-.707,dy:.707,color:"#FF0000 #FF7F00 #FFFF00 #00FF00 #0000FF #4B0082 #8B00FF",radius:22,bDamage:1000000000000000000000000000000000000,rank:0,cost:1000000000000000000000000000000000000000000,id:23,clone:false,speed:10}
       ]; 
       if(notationScientfic){ 
           for(var p = 0; p < startingBalls; p++){ 
