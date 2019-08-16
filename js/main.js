@@ -537,7 +537,7 @@ function toggleNightMode(){
     document.getElementById("Prestige").style.border = "1px solid #000000"; 
     document.getElementById("Options").style.border = "1px solid #000000"; 
     document.getElementById("Changelog").style.border = "1px solid #000000"; 
-    document.getElementById("Leaderboard").style.border = "1px solid #000000"; 
+    document.getElementById("Special").style.border = "1px solid #000000"; 
   } 
   else{ 
     nightMode = true; 
@@ -556,9 +556,16 @@ function toggleNightMode(){
     document.getElementById("Prestige").style.border = "1px solid #ffffff"; 
     document.getElementById("Options").style.border = "1px solid #ffffff"; 
     document.getElementById("Changelog").style.border = "1px solid #ffffff"; 
-    document.getElementById("Leaderboard").style.border = "1px solid #ffffff"; 
+    document.getElementById("Special").style.border = "1px solid #ffffff"; 
   } 
 } 
+function special(){
+  if(specialBalls("{active:false,x:800,y:200,dx:-.707,dy:.707,color:"#e25822",radius:28,bDamage:1000000000000000000,rank:0,cost:1000000000000000000000,id:20,clone:false,speed:6"},
+  "{active:false,x:600,y:400,dx:-.707,dy:.707,color:"#f7a233",radius:32,bDamage:2000000000000000000000000,rank:0,cost:10000000000000000000000000000,id:21,clone:false,speed:7"}))
+    if(confirm("Are you sure you want to get a Prestige Ball? This will clear all your balls and your bounds expect for prestige") == true){
+    localStorage.setItem("save",null); 
+  }
+}
 function wipeSave(){ 
   if(confirm("Are you sure you want to wipe your save? THIS WILL RESET EVERYTHING AND YOU WILL HAVE NOTING") == true){ 
     localStorage.setItem("save",null); 
@@ -567,7 +574,7 @@ function wipeSave(){
 } 
 function prestige(){ 
   if(level >= 50){ 
-    if(confirm("Are you sure you want to Prestige? This will get rid of all your numbers, all your levels and all your ball upgrades/clones. It will not get rid of Achievements or Prestige Upgrades. By prestiging you will get 1 Ball Point which gives you 100% more income (additive)") == true){ 
+    if(confirm("Are you sure you want to Prestige? This will get rid of all your numbers, all your levels and all your ball upgrades/clones. It will not get rid of Achievements, Prestige Upgrades or Special balls. By prestiging you will get 1 Ball Point which gives you 100% more income (additive)") == true){ 
       ballPoints += Math.pow(2,(Math.floor((level-50)/10))); 
       prestiged++; 
       level = (5*pUpgrades[10]); 
