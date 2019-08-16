@@ -3,8 +3,8 @@ var height = 900;
 var value = 0; 
 var context; 
 var level = 1; 
-var click = {multi: 1.17,rank: 1, bCost: 10,bDamage:10} 
-var baseCostMulti = 1.09; 
+var click = {multi: 1.16,rank: 1, bCost: 10,bDamage:10} 
+var baseCostMulti = 1.10; 
 var baseHealthMulti = 1.85; 
 var startingBalls = 22; 
 var balls = [ 
@@ -186,10 +186,10 @@ function levelBall(id){
         radius:tempBall.radius,id:tempBall.id,clone:true,speed:tempBall.speed}); 
     } 
     if(notationScientfic){ 
-        document.getElementById(id+"C").innerHTML = numberformat.format(Math.floor(tempBall.cost*Math.pow(1.09,tempBall.rank)),{format: 'scientific'}); 
+        document.getElementById(id+"C").innerHTML = numberformat.format(Math.floor(tempBall.cost*Math.pow(1.10,tempBall.rank)),{format: 'scientific'}); 
     } 
     else{ 
-        document.getElementById(id+"C").innerHTML = numberformat.format(Math.floor(tempBall.cost*Math.pow(1.09,tempBall.rank))); 
+        document.getElementById(id+"C").innerHTML = numberformat.format(Math.floor(tempBall.cost*Math.pow(1.10,tempBall.rank))); 
     } 
     document.getElementById(id+"A").innerHTML = tempBall.rank; 
     valueSet(); 
