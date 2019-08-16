@@ -556,14 +556,7 @@ function toggleNightMode(){
     document.getElementById("Prestige").style.border = "1px solid #ffffff"; 
     document.getElementById("Options").style.border = "1px solid #ffffff"; 
     document.getElementById("Changelog").style.border = "1px solid #ffffff"; 
-    document.getElementById("Special").style.border = "1px solid #ffffff"; 
-  } 
-} 
-function special(){
-  if(specialBalls("{active:false,x:800,y:200,dx:-.707,dy:.707,color:"#e25822",radius:28,bDamage:1000000000000000000,rank:0,cost:1000000000000000000000,id:20,clone:false,speed:6"},
-  "{active:false,x:600,y:400,dx:-.707,dy:.707,color:"#f7a233",radius:32,bDamage:2000000000000000000000000,rank:0,cost:10000000000000000000000000000,id:21,clone:false,speed:7"}))
-    if(confirm("Are you sure you want to get a Prestige Ball? This will clear all your balls and your bounds expect for prestige") == true){
-    localStorage.setItem("save",null); 
+    document.getElementById("Special").style.border = "1px solid #ffffff";
   }
 }
 function wipeSave(){ 
