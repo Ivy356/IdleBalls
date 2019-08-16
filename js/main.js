@@ -47,7 +47,7 @@ var normalWidth = 1200;
 var zoomed = false; 
 var pUpgrades = [0,0,0,0,0,0,0,0,0,0,0,0]; 
 var pCountMulti = 1; 
-var strengthBoost = 8; 
+var strengthBoost = 10; 
 var speedMulti = 1; 
 var radiusMulti = 1; 
 var animationSpeed = 0; 
@@ -168,7 +168,7 @@ function clickLevel(){
 } 
 function levelBall(id){ 
   var tempBall = balls[id]; 
-  strengthBoost = 8+pUpgrades[3]; 
+  strengthBoost = 10+pUpgrades[3]; 
   strengthBoostReq = 50-pUpgrades[2]; 
   cloneReq = 100-pUpgrades[7]; 
   if(value>=Math.floor(tempBall.cost*Math.pow(baseCostMulti,tempBall.rank))){ 
@@ -221,7 +221,7 @@ function init(){
       } 
       pCountMulti = (((Math.floor((balls.length-deactiveBalls)/5))*(0.3*pUpgrades[1]))+1); 
       strengthBoostReq = 50-pUpgrades[2]; 
-      strengthBoost = 8+pUpgrades[3]; 
+      strengthBoost = 10+pUpgrades[3]; 
       speedMulti = (0.1*pUpgrades[4])+1; 
       radiusMulti = 1 +(0.1*pUpgrades[5]); 
       exciteRate = pUpgrades[6]; 
@@ -684,7 +684,7 @@ function prestigeUpgrade(id){
         if(ballPoints >= 4){ 
             pUpgrades[id-1]++; 
             ballPoints -= 4; 
-            strengthBoost = 8+pUpgrades[id-1]; 
+            strengthBoost = 10+pUpgrades[id-1]; 
             document.getElementById(id+"p").innerHTML = 10*strengthBoost; 
         } 
         break; 
