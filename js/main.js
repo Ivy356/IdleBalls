@@ -8,7 +8,7 @@ var baseCostMulti = 1.10;
 var baseHealthMulti = 1.85; 
 var startingBalls = 24; 
 var balls = [ 
-  {active:false,x:200,y:200,dx:.707,dy:.707,color:"#5555ff",radius:20,bDamage:10000000000000,rank:0,cost:10,id:0,clone:false,speed:5}, 
+  {active:false,x:200,y:200,dx:.707,dy:.707,color:"#5555ff",radius:20,bDamage:10,rank:0,cost:10,id:0,clone:false,speed:5}, 
   {active:false,x:300,y:300,dx:.707,dy:-.707,color:"#00ff00",radius:20,bDamage:300,rank:0,cost:300,id:1,clone:false,speed:5}, 
   {active:false,x:100,y:100,dx:-.707,dy:.707,color:"#ff0000",radius:20,bDamage:900,rank:0,cost:1800,id:2,clone:false,speed:5}, 
   {active:false,x:400,y:400,dx:-.707,dy:-.707,color:"#ffff00",radius:20,bDamage:2700,rank:0,cost:10800,id:3,clone:false,speed:5}, 
@@ -570,7 +570,7 @@ function wipeSave(){
 function prestige(){ 
   if(level >= 50){ 
     if(confirm("Are you sure you want to Prestige? This will get rid of all your numbers, all your levels and all your ball upgrades/clones. It will not get rid of Achievements, Prestige Upgrades or Special balls. By prestiging you will get 1 Ball Point which gives you 100% more income (additive)") == true){ 
-      ballPoints += Math.pow(2,(Math.floor((level-50)/10))); 
+      ballPoints += Math.pow(2,(Math.floor((level-50)/25))); 
       prestiged++; 
       level = (5*pUpgrades[10]); 
       click.rank = 1; 
