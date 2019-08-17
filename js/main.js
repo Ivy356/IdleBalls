@@ -8,7 +8,7 @@ var baseCostMulti = 1.10;
 var baseHealthMulti = 1.85; 
 var startingBalls = 24; 
 var balls = [ 
-  {active:false,x:200,y:200,dx:.707,dy:.707,color:"#5555ff",radius:20,bDamage:1000000000000,rank:0,cost:10,id:0,clone:false,speed:5}, 
+  {active:false,x:200,y:200,dx:.707,dy:.707,color:"#5555ff",radius:20,bDamage:10,rank:0,cost:10,id:0,clone:false,speed:5}, 
   {active:false,x:300,y:300,dx:.707,dy:-.707,color:"#00ff00",radius:20,bDamage:300,rank:0,cost:300,id:1,clone:false,speed:5}, 
   {active:false,x:100,y:100,dx:-.707,dy:.707,color:"#ff0000",radius:20,bDamage:900,rank:0,cost:1800,id:2,clone:false,speed:5}, 
   {active:false,x:400,y:400,dx:-.707,dy:-.707,color:"#ffff00",radius:20,bDamage:2700,rank:0,cost:10800,id:3,clone:false,speed:5}, 
