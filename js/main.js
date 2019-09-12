@@ -284,7 +284,7 @@ function init(){
         for(var r = 1; r <= (loadData/strengthBoostReq); r++){ 
           loadBall.bDamage *= strengthBoost; 
         } 
-        for(var c = 1; c <= (loadData/50); c++){ 
+        for(var c = 1; c <= (loadData/100); c++){ 
           balls.push({active:true,x:rand(100,width-100),y:rand(100,height-100),dx:.707,dy:-.707,color:loadBall.color, 
             radius:loadBall.radius,id:loadBall.id,clone:true,speed:loadBall.speed}); 
         } 
