@@ -29,10 +29,10 @@ var balls = [
   {active:false,x:900,y:400,dx:-.707,dy:.707,color:"#A52A2A",radius:40,bDamage:38700000000,rank:0,cost:5070000000000000,id:18,clone:false,speed:9},
   {active:false,x:500,y:300,dx:-.707,dy:.707,color:"#4B0082",radius:40,bDamage:116000000000,rank:0,cost:30400000000000000,id:19,clone:false,speed:9},
   {active:false,x:800,y:200,dx:-.707,dy:.707,color:"#e25822",radius:28,bDamage:1e17,rank:0,cost:1e21,id:20,clone:false,speed:6},
-  {active:false,x:600,y:400,dx:-.707,dy:.707,color:"#f7a233",radius:32,bDamage:1e23,rank:0,cost:1e28,id:21,clone:false,speed:7},
-  {active:false,x:400,y:100,dx:-.707,dy:.707,color:"#A5F2F3",radius:38,bDamage:1e29,rank:0,cost:1e35,id:22,clone:false,speed:5},
-  {active:false,x:1000,y:200,dx:-.707,dy:.707,color:"#61de2a",radius:24,bDamage:1e36,rank:0,cost:1e42,id:23,clone:false,speed:8},
-  {active:false,x:1000,y:200,dx:-.707,dy:.707,color:"#ff41ca",radius:18,bDamage:1e45,rank:0,cost:1e52,id:24,clone:false,speed:10}
+  {active:false,x:600,y:400,dx:-.707,dy:.707,color:"#f7a233",radius:32,bDamage:1e24,rank:0,cost:1e28,id:21,clone:false,speed:7},
+  {active:false,x:400,y:100,dx:-.707,dy:.707,color:"#A5F2F3",radius:38,bDamage:1e30,rank:0,cost:1e35,id:22,clone:false,speed:5},
+  {active:false,x:1000,y:200,dx:-.707,dy:.707,color:"#61de2a",radius:24,bDamage:1e37,rank:0,cost:1e42,id:23,clone:false,speed:8},
+  {active:false,x:1000,y:200,dx:-.707,dy:.707,color:"#ff41ca",radius:18,bDamage:1e46,rank:0,cost:1e52,id:24,clone:false,speed:10}
 ];
 var clickBalls = [ 
   {active:false,x:300,y:200,dx:-.707,dy:.707,color:"#666666",radius:25,bDamage:10,rank:1,cost:10,id:100,clone:false,speed:4}, 
